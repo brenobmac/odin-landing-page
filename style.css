@@ -22,6 +22,7 @@ body {
 
 .header-logo {
   font-weight: 900;
+  font-size: 24px;
   margin: 0;
   padding: 0;
 }
@@ -29,6 +30,7 @@ body {
 .header-list {
   display: flex;
   gap: 30px;
+  font-size: 18px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -37,4 +39,57 @@ body {
 a {
   color: white;
   text-decoration: none;
+}
+
+.first-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.first-content-text {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  max-width: 500px;
+}
+
+.first-content-subtext {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 500px;
+}
+
+.sign-up-button {
+  border: none;
+  border-radius: 12px; /* Rounded border*/
+  cursor: pointer; /*Adds pointer when hover*/
+  width: 100px;
+  padding: 10px;
+  margin: 0;
+  background-color: #3882f6;
+  color: white;
+  font-weight: 900px;
+}
+
+.right-block {
+  display: flex;
+  flex-wrap: wrap;
 }
