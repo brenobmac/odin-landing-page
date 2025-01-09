@@ -1,0 +1,2 @@
+1. Fix CSS a bit, there are redundant declarations.
+2. Make webpage more original. I tried to strictly follow what was shown in the Odin Project's images.
