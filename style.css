@@ -92,6 +92,7 @@ a {
   background-color: #3882f6;
   color: white;
   font-weight: 900px;
+  max-height: fit-content;
 }
 
 .right-block {
@@ -180,4 +181,27 @@ a {
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 25px;
+}
+
+#button2 {
+  border: 3px solid white;
+}
+
+.fourth-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  min-height: 500px;
+}
+
+.blue-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  min-width: 50vw;
+  min-height: 250px;
 }
