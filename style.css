@@ -10,7 +10,7 @@ body {
   display: flex;
   gap: 10px;
   justify-content: space-between;
-  padding: 10px;
+  min-height: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 200px;
@@ -27,6 +27,9 @@ body {
 }
 
 .header-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 900;
   font-size: 24px;
   margin: 0;
@@ -221,4 +224,19 @@ a {
 .top-text {
   font-weight: bold;
   font-size: 24px;
+}
+
+.footer {
+  color: white;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  position: sticky;
+  bottom: 0; /*Needed to keep header on top*/
 }
