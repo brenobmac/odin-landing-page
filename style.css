@@ -35,6 +35,8 @@ body {
 
 .header-list {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 30px;
   font-size: 18px;
   list-style-type: none;
@@ -86,7 +88,7 @@ a {
   border: none;
   border-radius: 12px; /* Rounded border*/
   cursor: pointer; /*Adds pointer when hover*/
-  width: 100px;
+  width: 125px;
   padding: 10px;
   margin: 0;
   background-color: #3882f6;
@@ -204,4 +206,19 @@ a {
   border-radius: 12px;
   min-width: 50vw;
   min-height: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #eee;
+}
+
+.top-text {
+  font-weight: bold;
+  font-size: 24px;
 }
